@@ -17,7 +17,7 @@ int main(){
   cin >> T[i] >> g[i];
   }
   for(int i = 0; i < n; i++){
-  cout << "l = " << lOtG(g[i], T[i]) << " T = " << T[i] << "\n";
+  cout << "l = " << lOtG(g[i], T[i]) << " T*T = " << T[i]*T[i] << "\n";
 
 }
 }
